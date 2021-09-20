@@ -1,0 +1,414 @@
+:root {
+    font-size: 16px;
+    --new-gray: #EEF3F7;
+    --font-size18: 1.125rem;
+    --font-size14: 0.875rem;
+    --font-size12: 0.75rem;
+    --font-size11: 0.6875rem;
+    --font-size10: 0.625rem;
+}
+
+body {
+    background: #F3F2EE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*  start header */
+
+header {
+    width:100vw;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 769px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+
+/* inicio logo linkedin e pesquisar */
+
+.nav-pesquisa {
+    display: flex;
+    width: 50vw;
+    padding-left: 28px;
+}
+
+
+.nav-pesquisa img {
+    width: 35px;
+    height: 35px;
+    padding-right:7px;
+}
+
+.input-pesquisa {
+    background-color: var(--new-gray);
+    border: 0px solid var(--new-gray);
+    width: 235px;
+    height: 34px;
+    border-radius: 4px;
+    padding-left: 7px;
+}
+
+.input-pesquisa::placeholder {
+    font-size: var(--font-size12);
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 35px;
+    transform: translateY(75%);
+}
+
+#loupe {
+    width: 11px;
+    height: 11px;
+    transform: translateX(-230px)
+}
+
+.nav-icones-fotos {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+    padding-right: 28px;
+}
+
+/* fim logo linkedin e pesquisar
+
+/* inicio icones*/
+
+.nav-icones {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.nav-icones a {
+    text-decoration: none;
+    color: #666666;
+    opacity: 60%;
+}
+
+.nav-icones figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-icones figcaption {
+    font-size: var(--font-size10);
+    font-family: 'Ropa Sans', sans-serif;
+    padding-top: 5px; 
+}
+
+.nav-icones img {
+    width: 25px;
+    height:25px;
+    
+}
+
+/* fim icones */
+
+
+/* inicio foto perfil */
+
+.nav-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-perfil figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-perfil img {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+.nav-perfil figcaption {
+    font-size: var(--font-size10);
+    padding-top: 5px;
+    color:#666666
+}
+
+.nav-perfil a {
+    text-decoration: none;
+    color: #666666;
+}
+
+a:hover {
+    opacity: 100%;
+}
+
+/* fim foto perfil
+
+
+/* fim header */
+
+
+/* inicio main */
+
+main {
+    margin-top: 38px;
+
+}
+
+#photo-capa {
+    width: 717px;
+    height: 135px; 
+    background-image: url(image/von_karman.jpeg);
+    background-repeat: no-repeat;
+    background-size: 717px 135px;
+} 
+
+
+#photo-profile {
+    width: 105px;
+    height: 105px;
+    border: 2px solid white;
+    border-radius: 100%;
+    position: relative;
+    top: 59px;
+    left: 32px;
+}
+
+#photo-profile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.data-profile article {
+    width: 717px;
+    height: 185px;
+    background: white;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.data-profile h1 {
+    font-size: var(--font-size18);
+    font-family: 'Rambla', sans-serif;
+    font-weight: bold;
+    padding-top: 43px;
+    padding-left: 22px;
+}
+
+.data-profile p {
+    font-size: var(--font-size14);
+    font-family: 'Rambla', sans-serif;
+    padding-left: 22px;
+    padding-top: 5px;
+    padding-right: 200px
+}
+
+#container-data-local p {
+    padding-top: 5px;
+}
+
+#informacoes-contato {
+    font-family: 'Rambla', sans-serif;
+    font-weight: 800;
+    color:#0B65C2
+}
+
+#informacoes-contato:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container-button {
+    display: flex;
+    justify-content: space-between;
+    width: 317px;
+    padding-top: 11px;
+    margin-left: 22px;
+    padding-bottom: 3px;
+}
+
+.container-button button {
+    font-size: var(--font-size11);
+    font-family: 'Rambla', sans-serif;
+    font-weight: 700;
+}
+
+#b1 {
+    width: 131px;
+    height: 21px;
+    border: 1px solid #0B65C2;
+    background: #0B65C2; 
+    color: white; 
+    padding: 4px 16px;
+    border-radius: 15px;
+}
+
+#b2 {
+    width: 106px;
+    height: 21px;
+    border: 1px solid black;
+    background-color: white;
+    color: #666666;
+    border-radius: 15px;
+    padding: 4px 16px;
+}
+
+#b3 {
+    width: 54px;
+    height: 21px;
+    border: 1px solid black;
+    background-color: white;
+    color: #666666;
+    border-radius: 15px;
+    padding: 4px 16px;
+}
+
+#b1:hover {
+    background-color: #004182;
+}
+
+#b2:hover {
+    background-color: #d6cec2;
+    border: 2px solid #6e6558;
+    margin-top: -1px;
+}
+
+#b3:hover {
+    background-color: #d6cec2;
+    border: 2px solid #6e6558;
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-right: 1px;
+}
+
+
+#local-perfil {
+    font-size: 0.75rem;
+    padding-top: 5px;
+    color: #666666;
+}
+
+
+/*-----------------------------------*/
+
+
+.experience-formacao {
+    width: 717px;
+    background-color: white;
+    margin-top: 32px;
+    border-radius: 4px;
+    display:flex;
+    flex-direction: column;
+}
+
+.title-experience {
+    padding-left: 21px;
+    padding-top:16px;
+}
+
+.title-experience h2 {
+    font-size: var(--font-size14);
+    font-family: 'Rambla', sans-serif;
+}
+
+
+.job-inicial {
+    display:flex;
+    padding-top: 29px;
+    padding-bottom: 34px;
+}
+
+.job {
+    display: flex;
+    padding-bottom: 34px;
+}
+
+
+.logo-job-inicial {
+    padding-left: 24px;
+    padding-right: 21px;
+}
+
+.logo-job-inicial img {
+    width:35px;
+    height: 35px;
+}
+
+.logo-job {
+    padding-left: 24px;
+    padding-right: 21px;
+    padding-top: 19px;
+}
+
+.logo-job img {
+    width:35px;
+    height: 35px;
+}
+
+.job-information-inicial {
+    width: 80%;
+}
+
+.job-information-inicial h3 {
+    font-size: var(--font-size12);
+    font-family: 'Rambla', sans-serif;
+    font-weight: 700;
+}
+
+.job-information {
+    width: 89%;
+    border-top: 1px solid #EBEBEB;
+    padding-top: 19px;
+}
+
+.job-information h3 {
+    font-size: var(--font-size12);
+    font-family: 'Rambla', sans-serif;
+    font-weight: 700;
+}
+
+#empresa-instituicao {
+    font-size: var(--font-size11);
+    font-family: 'Rambla', sans-serif;
+}
+
+
+.formacao {
+    width: 717px;
+    border-top: 1px solid #EBEBEB;
+}
+
+#detail-job-information {
+    font-size: var(--font-size11);
+    font-family: 'Rambla', sans-serif;
+    padding-top: 17px;
+}
+
+#local-job {
+    font-size: var(--font-size11);
+    font-family: 'Rambla', sans-serif;
+    color: #666666;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 15px;
+  }
+  
+ul li:before {
+    content: "-";
+    margin-left: -1.5em;
+}
+
+
+/* end main */
+
