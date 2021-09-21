@@ -29,7 +29,9 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
     width: 769px;
+    height: 59px;
     padding-top: 13px;
     padding-bottom: 12px;
 }
@@ -165,6 +167,7 @@ main {
 }
 
 #photo-capa {
+    box-sizing: border-box;
     width: 717px;
     height: 135px; 
     background-image: url(image/von_karman.jpeg);
@@ -191,6 +194,7 @@ main {
 }
 
 .data-profile article {
+    box-sizing: border-box;
     width: 717px;
     height: 185px;
     background: white;
@@ -232,6 +236,7 @@ main {
 .container-button {
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
     width: 317px;
     padding-top: 11px;
     margin-left: 22px;
@@ -245,6 +250,7 @@ main {
 }
 
 #b1 {
+    box-sizing: border-box;
     width: 131px;
     height: 21px;
     border: 1px solid #0B65C2;
@@ -255,6 +261,7 @@ main {
 }
 
 #b2 {
+    box-sizing: border-box;
     width: 106px;
     height: 21px;
     border: 1px solid black;
@@ -265,6 +272,7 @@ main {
 }
 
 #b3 {
+    box-sizing: border-box;
     width: 54px;
     height: 21px;
     border: 1px solid black;
@@ -304,6 +312,7 @@ main {
 
 
 .experience-formacao {
+    box-sizing: border-box;
     width: 717px;
     background-color: white;
     margin-top: 32px;
@@ -385,6 +394,7 @@ main {
 
 
 .formacao {
+    box-sizing: border-box;
     width: 717px;
     border-top: 1px solid #EBEBEB;
 }
