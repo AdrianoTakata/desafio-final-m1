@@ -23,7 +23,7 @@ header {
     display: flex;
     justify-content: center;
     position: fixed;
-    z
+    z-index: 1;
 }
 
 nav {
